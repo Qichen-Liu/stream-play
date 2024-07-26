@@ -26,4 +26,9 @@ public class Fruit {
         this.quantity = quantity;
     }
 
+    public String toString() {
+        return "Name: " + name + ", Quantity: " + quantity;
+    }
+
+
 }
